@@ -1,0 +1,725 @@
+[08Aug2026 02:25:49.370] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[08Aug2026 02:25:49.374] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[08Aug2026 02:25:50.655] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[08Aug2026 02:25:50.841] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/preludiodecaos/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[08Aug2026 02:25:51.255] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/preludiodecaos/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[08Aug2026 02:25:51.258] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/preludiodecaos/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[08Aug2026 02:25:51.259] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/preludiodecaos/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[08Aug2026 02:25:51.260] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/preludiodecaos/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[08Aug2026 02:25:51.585] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
+[08Aug2026 02:25:54.145] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08Aug2026 02:25:54.275] [main/ERROR] [mixin/]: Mixin config notsoshrimple.mixins.json does not specify "minVersion" property
+[08Aug2026 02:25:54.349] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[08Aug2026 02:25:55.743] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[08Aug2026 02:25:55.745] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[08Aug2026 02:25:55.745] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.ClientLevel was not found mixins.superbwarfare.json:ClientLevelMixin
+[08Aug2026 02:25:56.481] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[08Aug2026 02:26:01.929] [main/WARN] [mixin/]: Method overwrite conflict for scheduleRandomTick in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
+[08Aug2026 02:26:01.930] [main/WARN] [mixin/]: Method overwrite conflict for getScheduledRandomTicks in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
+[08Aug2026 02:26:03.638] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[08Aug2026 02:26:03.658] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[08Aug2026 02:26:03.668] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[08Aug2026 02:26:03.714] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Registering common data for channel xaeroworldmap:main!
+[08Aug2026 02:26:03.745] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading primary common config for channel xaeroworldmap:main!
+[08Aug2026 02:26:03.749] [modloading-worker-0/INFO] [xaero.map.WorldMap/]: Loading server config profiles for channel xaeroworldmap:main!
+[08Aug2026 02:26:03.816] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[08Aug2026 02:26:03.876] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[08Aug2026 02:26:03.929] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[08Aug2026 02:26:03.931] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[08Aug2026 02:26:03.937] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[08Aug2026 02:26:03.938] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[08Aug2026 02:26:03.940] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[08Aug2026 02:26:03.941] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[08Aug2026 02:26:03.943] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[08Aug2026 02:26:03.947] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[08Aug2026 02:26:04.570] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[08Aug2026 02:26:04.570] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[08Aug2026 02:26:05.256] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[08Aug2026 02:26:05.289] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[08Aug2026 02:26:05.475] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[08Aug2026 02:26:05.500] [modloading-worker-0/INFO] [saintsdragons/]: Raised MAX_HEALTH attribute cap to 100000.0
+[08Aug2026 02:26:05.501] [modloading-worker-0/INFO] [saintsdragons/]: Raised ARMOR attribute cap to 100000.0
+[08Aug2026 02:26:05.541] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[08Aug2026 02:26:05.545] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[08Aug2026 02:26:05.672] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone items
+[08Aug2026 02:26:05.809] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Blocks
+[08Aug2026 02:26:05.884] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Wood
+[08Aug2026 02:26:05.885] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Entities
+[08Aug2026 02:26:05.885] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Entities
+[08Aug2026 02:26:05.886] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Creative Tabs
+[08Aug2026 02:26:05.887] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Sounds
+[08Aug2026 02:26:05.887] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Predicate
+[08Aug2026 02:26:05.899] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone State Providers
+[08Aug2026 02:26:05.903] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Decorators
+[08Aug2026 02:26:05.916] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Features
+[08Aug2026 02:26:05.919] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Structure Pieces
+[08Aug2026 02:26:05.921] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Types
+[08Aug2026 02:26:05.926] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Configured Features
+[08Aug2026 02:26:05.948] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Configured Features
+[08Aug2026 02:26:06.060] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Configured Features
+[08Aug2026 02:26:06.062] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Configured Features
+[08Aug2026 02:26:06.071] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes You'll Go Overworld Configured Features
+[08Aug2026 02:26:06.082] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Placed Features
+[08Aug2026 02:26:06.098] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Tree Placed Features
+[08Aug2026 02:26:06.117] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Placed Features
+[08Aug2026 02:26:06.118] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Placed Features
+[08Aug2026 02:26:06.119] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Surface Rules
+[08Aug2026 02:26:06.134] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Template Pools
+[08Aug2026 02:26:06.137] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[08Aug2026 02:26:06.137] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 12
+[08Aug2026 02:26:06.138] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 12 has been initalized!
+[08Aug2026 02:26:06.157] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biome's We've Gone Village Template Pools
+[08Aug2026 02:26:06.161] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Poi Types
+[08Aug2026 02:26:06.165] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Villager Professions
+[08Aug2026 02:26:06.166] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Processors
+[08Aug2026 02:26:06.173] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone villager types
+[08Aug2026 02:26:06.174] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Schedules
+[08Aug2026 02:26:06.175] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Memory Module Types
+[08Aug2026 02:26:06.180] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Sensor Types
+[08Aug2026 02:26:06.224] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[08Aug2026 02:26:08.946] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:structure_modifier_serializers: The object RecordCodec[UnitDecoder[com.peeko32213.notsoshrimple.common.entity.utl.NSSStructureSpawnsModifier$$Lambda$11559/0x00007f41596f0480@311f1260] * Field[structures: net.minecraft.resources.HolderSetCodec@15849769] * Field[category: EitherCodec[String, Int][comapFlatMapped]] * Field[spawn: RecordCodec[UnitDecoder[net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData$$Lambda$3373/0x00007f41589d98a0@4e5563ef] * Field[type: String[comapFlatMapped][flatXmapped] orCompressed Int[flatXmapped][mapResult WithLifecycle[net.minecraft.core.Registry$$Lambda$1406/0x00007f41586051e8@82134e4 net.minecraft.core.Registry$$Lambda$1407/0x00007f4158605430@18fb1034]]] * Field[weight: Int[xmapped]] * Field[minCount: Int[flatXmapped]] * Field[maxCount: Int[flatXmapped]]][flatXmapped]]] has been registered twice for the same name notsoshrimple:add_spawn.
+[08Aug2026 02:26:09.382] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[08Aug2026 02:26:09.402] [main/INFO] [Spartan Weaponry/]: Updating config settings!
+[08Aug2026 02:26:09.420] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[08Aug2026 02:26:09.451] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[08Aug2026 02:26:09.530] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[08Aug2026 02:26:09.552] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[08Aug2026 02:26:09.559] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[08Aug2026 02:26:09.673] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[08Aug2026 02:26:10.040] [modloading-worker-0/INFO] [com.atsuishio.superbwarfare.Mod/]: Now Loading...
+* This Mod used to be made by MCreator *
+  _____  ______  __          __ 
+ / ____| |  __ \ \ \        / / 
+| (___   | |__) | \ \  /\  / /  
+ \___ \  |  __ (   \ \/  \/ /   
+ ____) | | |__) |   \  /\  /    
+|_____/  |_____/     \/  \/
+* Superb Warfare - Version: 0.8.9 *
+[08Aug2026 02:26:10.442] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Aug2026 02:26:10.669] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[08Aug2026 02:26:10.670] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[08Aug2026 02:26:10.670] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[08Aug2026 02:26:10.670] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[08Aug2026 02:26:10.670] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[08Aug2026 02:26:10.670] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[08Aug2026 02:26:10.671] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[08Aug2026 02:26:10.705] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[08Aug2026 02:26:10.707] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[08Aug2026 02:26:10.778] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering BWG Biome Modifiers for Vanilla Biomes
+[08Aug2026 02:26:10.780] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Flower Patch, Clover Patch, White Anemone, Pink Anemone, Orange Daisy, Horseweed and rose to 
+[08Aug2026 02:26:10.780] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Palm Trees to 
+[08Aug2026 02:26:10.781] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Flower Patch, Clover Patch, Blue Rose Bush and Blue Berry Bushes to 
+[08Aug2026 02:26:10.781] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Green/Cyan/Magenta/Purple/Yellow Tulips, Rose, Orange Daisy, Flower and Clover Patches to 
+[08Aug2026 02:26:10.781] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Flower Patch, Clover Patch, White Anemone, Pink Anemone, Orange Daisy, Horseweed and rose to 
+[08Aug2026 02:26:10.786] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering BWG Biome Modifiers for Vanilla Biomes
+[08Aug2026 02:26:10.786] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Palm Trees to 
+[08Aug2026 02:26:10.786] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Flower Patch, Clover Patch, White Anemone, Pink Anemone, Orange Daisy, Horseweed and rose to 
+[08Aug2026 02:26:10.786] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Flower Patch, Clover Patch, Blue Rose Bush and Blue Berry Bushes to 
+[08Aug2026 02:26:10.786] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Green/Cyan/Magenta/Purple/Yellow Tulips, Rose, Orange Daisy, Flower and Clover Patches to 
+[08Aug2026 02:26:10.789] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Palm Trees to 
+[08Aug2026 02:26:10.790] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Flower Patch, Clover Patch, White Anemone, Pink Anemone, Orange Daisy, Horseweed and rose to 
+[08Aug2026 02:26:10.790] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Flower Patch, Clover Patch, Blue Rose Bush and Blue Berry Bushes to 
+[08Aug2026 02:26:10.790] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Green/Cyan/Magenta/Purple/Yellow Tulips, Rose, Orange Daisy, Flower and Clover Patches to 
+[08Aug2026 02:26:10.790] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Flower Patch, Clover Patch, White Anemone, Pink Anemone, Orange Daisy, Horseweed and rose to 
+[08Aug2026 02:26:10.790] [main/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Will add Flower Patch, Clover Patch, White Anemone, Pink Anemone, Orange Daisy, Horseweed and rose to 
+[08Aug2026 02:26:10.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: UP_TO_DATE Current: 3.4.14 Target: null
+[08Aug2026 02:26:10.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[08Aug2026 02:26:10.806] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_0 to index 4 for type OVERWORLD
+[08Aug2026 02:26:10.806] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_1 to index 5 for type OVERWORLD
+[08Aug2026 02:26:10.806] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_2 to index 6 for type OVERWORLD
+[08Aug2026 02:26:10.837] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[08Aug2026 02:26:10.838] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[08Aug2026 02:26:10.839] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[08Aug2026 02:26:10.847] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[08Aug2026 02:26:10.849] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[08Aug2026 02:26:10.849] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[08Aug2026 02:26:10.849] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[08Aug2026 02:26:11.003] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: AHEAD Current: 1.10.2.1 Target: null
+[08Aug2026 02:26:11.016] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[08Aug2026 02:26:11.036] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.atsuishio.superbwarfare.compat.jade.SbwJadePlugin
+[08Aug2026 02:26:11.038] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[08Aug2026 02:26:11.042] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[08Aug2026 02:26:11.062] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[08Aug2026 02:26:11.069] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[08Aug2026 02:26:11.071] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[08Aug2026 02:26:11.075] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.leon.saintsdragons.forge.integration.jade.JadeDragonPlugin
+[08Aug2026 02:26:11.096] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[08Aug2026 02:26:11.097] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[08Aug2026 02:26:11.098] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[08Aug2026 02:26:13.075] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08Aug2026 02:26:14.873] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/preludiodecaos/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/assets/.mcassetsroot' uses unexpected schema
+[08Aug2026 02:26:14.873] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/preludiodecaos/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/data/.mcassetsroot' uses unexpected schema
+[08Aug2026 02:26:16.999] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[08Aug2026 02:26:17.033] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[08Aug2026 02:26:17.263] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/cardboard_box as it is missing following references: wares:cardboard_box (from [forge]ctov-3.4.14.jar)
+[08Aug2026 02:26:17.277] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/sealed_delivery_agreement as it is missing following references: wares:sealed_delivery_agreement (from [forge]ctov-3.4.14.jar)
+[08Aug2026 02:26:17.761] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[08Aug2026 02:26:17.849] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[08Aug2026 02:26:17.939] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:superbwarfare:grant_manual
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.10-universal.jar%23184!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.10-universal.jar%23184!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[08Aug2026 02:26:18.009] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[08Aug2026 02:26:18.181] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[08Aug2026 02:26:18.182] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[08Aug2026 02:26:18.194] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[08Aug2026 02:26:18.194] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[08Aug2026 02:26:18.208] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[08Aug2026 02:26:18.209] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[08Aug2026 02:26:18.214] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ore_hammer:compat/mekanism/tin_dust_raw_to_clean
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[08Aug2026 02:26:18.227] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[08Aug2026 02:26:18.227] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[08Aug2026 02:26:18.232] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[08Aug2026 02:26:18.232] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[08Aug2026 02:26:18.235] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[08Aug2026 02:26:18.235] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[08Aug2026 02:26:18.236] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[08Aug2026 02:26:18.237] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[08Aug2026 02:26:18.246] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[08Aug2026 02:26:18.246] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[08Aug2026 02:26:18.246] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[08Aug2026 02:26:18.246] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[08Aug2026 02:26:18.250] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[08Aug2026 02:26:18.250] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[08Aug2026 02:26:18.254] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ore_hammer:compat/mekanism/iron_dust_raw_to_clean
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[08Aug2026 02:26:18.259] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[08Aug2026 02:26:18.259] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[08Aug2026 02:26:18.268] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[08Aug2026 02:26:18.269] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[08Aug2026 02:26:18.269] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[08Aug2026 02:26:18.269] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[08Aug2026 02:26:18.271] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ore_hammer:compat/mekanism/gold_dust_raw_to_clean
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[08Aug2026 02:26:18.274] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ore_hammer:compat/mekanism/copper_dust_raw_to_clean
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[08Aug2026 02:26:18.281] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[08Aug2026 02:26:18.282] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[08Aug2026 02:26:18.287] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[08Aug2026 02:26:18.287] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[08Aug2026 02:26:18.289] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[08Aug2026 02:26:18.289] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[08Aug2026 02:26:18.307] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[08Aug2026 02:26:18.307] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[08Aug2026 02:26:18.310] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[08Aug2026 02:26:18.310] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[08Aug2026 02:26:18.316] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[08Aug2026 02:26:18.316] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[08Aug2026 02:26:18.320] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[08Aug2026 02:26:18.321] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[08Aug2026 02:26:18.328] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
+[08Aug2026 02:26:18.364] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[08Aug2026 02:26:18.456] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[08Aug2026 02:26:18.508] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[08Aug2026 02:26:18.513] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[08Aug2026 02:26:18.672] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4854 advancements
+[08Aug2026 02:26:18.689] [main/INFO] [Dungeon Crawl/]: Loading data...
+[08Aug2026 02:26:19.127] [main/INFO] [Dungeon Crawl/]: Done.
+[08Aug2026 02:26:19.142] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[08Aug2026 02:26:19.149] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[08Aug2026 02:26:19.150] [main/INFO] [saintsdragons/]: Loaded 9 dragon attribute configuration(s) from Forge config
+[08Aug2026 02:26:19.151] [main/INFO] [saintsdragons/]: Loaded 7 dragon variant definition(s)
+[08Aug2026 02:26:19.173] [main/INFO] [saintsdragons/]: Loaded Draconic Crucible thermal data
+[08Aug2026 02:26:20.426] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 7.370699ms
+[08Aug2026 02:26:20.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[08Aug2026 02:26:20.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Aug2026 02:26:20.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Aug2026 02:26:20.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Aug2026 02:26:20.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Aug2026 02:26:20.737] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[08Aug2026 02:26:20.830] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08Aug2026 02:26:20.830] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08Aug2026 02:26:20.830] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08Aug2026 02:26:20.831] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08Aug2026 02:26:21.153] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[08Aug2026 02:26:21.782] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[08Aug2026 02:26:21.783] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Aug2026 02:26:31.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Aug2026 02:26:35.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:35.612] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:35.617] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:35.631] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:35.632] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:35.633] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:35.633] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:35.634] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:35.864] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:36.362] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:36.851] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:37.349] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:37.849] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Aug2026 02:26:38.349] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[08Aug2026 02:26:38.849] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[08Aug2026 02:26:39.259] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7411 ms
+[08Aug2026 02:26:39.260] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (18.415s)! For help, type "help"
+[08Aug2026 02:26:39.504] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Aug2026 02:26:39.509] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[08Aug2026 02:26:39.510] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[08Aug2026 02:26:52.524] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[08Aug2026 02:26:52.696] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Nyx0y_Tx[/127.89.93.69:47825] logged in with entity id 149 at (757.4475976802339, 92.0, 1399.2929257923497)
+[08Aug2026 02:26:52.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx joined the game
+[08Aug2026 02:26:53.046] [Server thread/INFO] [Jade/]: Syncing config to Nyx0y_Tx (9c03f1c9-81ea-34da-86fd-7d937d259bba)
+[08Aug2026 02:26:55.954] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3344ms or 66 ticks behind
+[08Aug2026 02:27:18.623] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nyx0y_Tx lost connection: Disconnected
+[08Aug2026 02:27:18.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx left the game
+[08Aug2026 02:29:47.665] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1d6b869f[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:32889) lost connection: Disconnected
+[08Aug2026 02:29:48.986] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Nyx0y_Tx[/127.89.93.69:57103] logged in with entity id 385 at (761.8774029894239, 92.0, 1386.7462534325855)
+[08Aug2026 02:29:49.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx joined the game
+[08Aug2026 02:29:49.047] [Server thread/INFO] [Jade/]: Syncing config to Nyx0y_Tx (9c03f1c9-81ea-34da-86fd-7d937d259bba)
+[08Aug2026 02:30:35.568] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@451e07c2[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:42159) lost connection: Disconnected
+[08Aug2026 02:30:59.965] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Muri3l[/127.57.30.59:57287] logged in with entity id 670 at (786.5984114795026, 101.0, 1365.9401920154096)
+[08Aug2026 02:31:00.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l joined the game
+[08Aug2026 02:31:00.046] [Server thread/INFO] [Jade/]: Syncing config to Muri3l (b832a611-467f-39fe-b68e-c9681b802f9f)
+[08Aug2026 02:31:11.469] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e32441b[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:57767) lost connection: Disconnected
+[08Aug2026 02:31:46.470] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@29f6a44f[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:46245): Took too long to log in
+[08Aug2026 02:31:46.471] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@29f6a44f[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:46245) lost connection: Took too long to log in
+[08Aug2026 02:31:46.520] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:33:16.020] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@1cef8e70[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:36499): Took too long to log in
+[08Aug2026 02:33:16.022] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1cef8e70[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:36499) lost connection: Took too long to log in
+[08Aug2026 02:33:16.072] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:33:38.621] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@446d8127[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:56113) lost connection: Disconnected
+[08Aug2026 02:33:38.970] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1a0a121c[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:60469) lost connection: Disconnected
+[08Aug2026 02:34:05.720] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@78c91561[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:53529) lost connection: Disconnected
+[08Aug2026 02:34:14.669] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@199a8f70[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:41617): Took too long to log in
+[08Aug2026 02:34:14.670] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@199a8f70[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:41617) lost connection: Took too long to log in
+[08Aug2026 02:34:14.722] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:34:56.237] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LIGS458[/127.173.240.53:51349] logged in with entity id 1323 at (770.5, 95.5, 1392.5)
+[08Aug2026 02:34:56.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 joined the game
+[08Aug2026 02:34:56.347] [Server thread/INFO] [Jade/]: Syncing config to LIGS458 (2814d6c6-5d95-3c08-adff-4f0d3437c200)
+[08Aug2026 02:35:22.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported Nyx0y_Tx to LIGS458]
+[08Aug2026 02:35:50.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx was assassinated by LIGS458
+[08Aug2026 02:36:39.771] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@447a4a20[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:59081): Took too long to log in
+[08Aug2026 02:36:39.771] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@447a4a20[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:59081) lost connection: Took too long to log in
+[08Aug2026 02:36:39.820] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:37:12.519] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@724e9003[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:58335) lost connection: Disconnected
+[08Aug2026 02:37:49.274] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4df19aa1[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:40941) lost connection: Disconnected
+[08Aug2026 02:38:16.269] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@18be1b8[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:34175): Took too long to log in
+[08Aug2026 02:38:16.270] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@18be1b8[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:34175) lost connection: Took too long to log in
+[08Aug2026 02:38:16.321] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:39:10.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx has made the advancement [Ice Bucket Challenge]
+[08Aug2026 02:40:11.077] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@6b141042[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:53093): Took too long to log in
+[08Aug2026 02:40:11.079] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6b141042[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:53093) lost connection: Took too long to log in
+[08Aug2026 02:40:11.129] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:40:44.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported Nyx0y_Tx to LIGS458]
+[08Aug2026 02:41:29.022] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@4d921c94[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:34509): Took too long to log in
+[08Aug2026 02:41:29.023] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4d921c94[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:34509) lost connection: Took too long to log in
+[08Aug2026 02:41:29.077] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:41:45.314] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/2447, l='ServerLevel[world]', x=739.13, y=-22.00, z=1334.88]
+[08Aug2026 02:42:24.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx has made the advancement [Enchanter]
+[08Aug2026 02:42:52.374] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@63195562[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:47801) lost connection: Disconnected
+[08Aug2026 02:43:18.881] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@feddab[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:53137) lost connection: Disconnected
+[08Aug2026 02:43:52.485] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@eaf6403[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:44427): Took too long to log in
+[08Aug2026 02:43:52.487] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@eaf6403[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:44427) lost connection: Took too long to log in
+[08Aug2026 02:43:52.534] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:44:51.614] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/3561, l='ServerLevel[world]', x=1212.00, y=62.00, z=1611.75]
+[08Aug2026 02:45:01.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx has made the advancement [We Need to Go Deeper]
+[08Aug2026 02:45:02.834] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5224ms or 104 ticks behind
+[08Aug2026 02:45:10.605] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: WitherSkeleton['Wither Skeleton'/3677, l='ServerLevel[world]', x=113.50, y=88.00, z=116.50]
+[08Aug2026 02:45:13.380] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/3697, l='ServerLevel[world]', x=63.80, y=94.00, z=103.39]
+[08Aug2026 02:45:13.381] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/3698, l='ServerLevel[world]', x=62.78, y=94.00, z=103.06]
+[08Aug2026 02:45:17.877] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/3775, l='ServerLevel[world]', x=98.07, y=62.00, z=92.02]
+[08Aug2026 02:45:49.772] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/4010, l='ServerLevel[world]', x=81.93, y=87.00, z=106.64]
+[08Aug2026 02:45:49.773] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/4011, l='ServerLevel[world]', x=82.08, y=87.00, z=105.72]
+[08Aug2026 02:45:53.224] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@4469e303[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:39707): Took too long to log in
+[08Aug2026 02:45:53.225] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4469e303[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:39707) lost connection: Took too long to log in
+[08Aug2026 02:45:53.276] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:45:57.743] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=721, y=60, z=1300} BlockPos{x=98, y=98, z=133}
+[08Aug2026 02:45:57.779] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=721, y=60, z=1300} BlockPos{x=98, y=98, z=133}
+[08Aug2026 02:45:57.844] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=721, y=60, z=1300} BlockPos{x=98, y=98, z=133}
+[08Aug2026 02:46:07.073] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: WitherSkeleton['Wither Skeleton'/4128, l='ServerLevel[world]', x=21.50, y=95.00, z=94.50]
+[08Aug2026 02:46:15.872] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/4180, l='ServerLevel[world]', x=74.93, y=63.00, z=75.30]
+[08Aug2026 02:46:43.632] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=109, y=49, z=148} BlockPos{x=108, y=47, z=148}
+[08Aug2026 02:46:43.691] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=109, y=49, z=148} BlockPos{x=108, y=47, z=148}
+[08Aug2026 02:46:43.734] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=109, y=49, z=148} BlockPos{x=108, y=47, z=148}
+[08Aug2026 02:46:43.782] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=109, y=49, z=148} BlockPos{x=108, y=47, z=148}
+[08Aug2026 02:46:43.830] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=109, y=49, z=148} BlockPos{x=108, y=47, z=148}
+[08Aug2026 02:46:43.881] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=109, y=49, z=148} BlockPos{x=108, y=47, z=148}
+[08Aug2026 02:46:43.931] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=109, y=49, z=148} BlockPos{x=108, y=47, z=148}
+[08Aug2026 02:47:07.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx has made the advancement [Hidden in the Depths]
+[08Aug2026 02:47:16.183] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=100, y=21, z=159} BlockPos{x=98, y=28, z=149}
+[08Aug2026 02:47:21.775] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@572b846d[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:54537) lost connection: Disconnected
+[08Aug2026 02:47:35.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 has made the advancement [Dragonslayer]
+[08Aug2026 02:48:05.072] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/4625, l='ServerLevel[world]', x=79.19, y=87.00, z=109.63]
+[08Aug2026 02:48:07.983] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=102, y=18, z=127} BlockPos{x=102, y=17, z=127}
+[08Aug2026 02:48:16.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Nyx0y_Tx> gfdgdgdf
+[08Aug2026 02:48:26.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 has made the advancement [Ice Bucket Challenge]
+[08Aug2026 02:49:13.039] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=359, y=-59, z=28}
+[08Aug2026 02:49:13.041] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=361, y=-59, z=28}
+[08Aug2026 02:49:13.041] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=360, y=-59, z=28}
+[08Aug2026 02:49:13.041] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=363, y=-59, z=30}
+[08Aug2026 02:49:13.041] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=362, y=-58, z=30}
+[08Aug2026 02:49:13.042] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=359, y=-51, z=31}
+[08Aug2026 02:49:13.090] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=365, y=-59, z=34}
+[08Aug2026 02:49:13.091] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=357, y=-58, z=34}
+[08Aug2026 02:49:13.091] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=359, y=-51, z=34}
+[08Aug2026 02:49:14.295] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=521, y=-59, z=38}
+[08Aug2026 02:49:14.298] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=523, y=-59, z=38}
+[08Aug2026 02:49:14.312] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=518, y=-58, z=34}
+[08Aug2026 02:49:14.313] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=517, y=-58, z=34}
+[08Aug2026 02:49:14.313] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=516, y=-58, z=34}
+[08Aug2026 02:49:14.314] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=519, y=-58, z=34}
+[08Aug2026 02:49:14.314] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=520, y=-58, z=34}
+[08Aug2026 02:49:59.774] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@6686ac37[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:57023): Took too long to log in
+[08Aug2026 02:49:59.774] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6686ac37[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.182.243.217:57023) lost connection: Took too long to log in
+[08Aug2026 02:49:59.822] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:50:09.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Nyx0y_Tx> nero tepeame a to
+[08Aug2026 02:50:37.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported Nyx0y_Tx to Muri3l]
+[08Aug2026 02:50:48.766] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/5537, l='ServerLevel[world]', x=1436.30, y=71.00, z=1759.14]
+[08Aug2026 02:51:15.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 has made the advancement [Dragon Encounter]
+[08Aug2026 02:53:30.417] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/6083, l='ServerLevel[world]', x=1637.38, y=83.00, z=1939.59]
+[08Aug2026 02:53:45.813] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/6191, l='ServerLevel[world]', x=1674.34, y=37.00, z=2014.47]
+[08Aug2026 02:54:52.721] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@2f8888b1[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:60607): Took too long to log in
+[08Aug2026 02:54:52.721] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2f8888b1[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:60607) lost connection: Took too long to log in
+[08Aug2026 02:54:52.770] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:56:09.234] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@f842c64[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:48553): Took too long to log in
+[08Aug2026 02:56:09.235] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@f842c64[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:48553) lost connection: Took too long to log in
+[08Aug2026 02:56:09.277] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:57:10.874] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@5aacc5ef[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:58339): Took too long to log in
+[08Aug2026 02:57:10.875] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5aacc5ef[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:58339) lost connection: Took too long to log in
+[08Aug2026 02:57:10.927] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 02:57:14.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Aug2026 02:57:14.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xddd<--[HERE]
+[08Aug2026 02:57:14.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Aug2026 02:57:14.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: d<--[HERE]
+[08Aug2026 02:57:15.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Aug2026 02:57:15.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sa<--[HERE]
+[08Aug2026 02:58:50.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported LIGS458 to 794.500000, 100.500000, 1378.500000]
+[08Aug2026 03:01:09.044] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element dungeoncrawl:dungeon took 790 ms
+[08Aug2026 03:02:39.459] [Worker-Main-11/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[08Aug2026 03:02:39.581] [Worker-Main-11/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[08Aug2026 03:02:39.797] [Worker-Main-11/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[08Aug2026 03:02:39.861] [Worker-Main-11/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[08Aug2026 03:02:40.047] [Worker-Main-11/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[08Aug2026 03:02:40.068] [Worker-Main-11/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[08Aug2026 03:02:40.072] [Worker-Main-11/WARN] [lithostitched/]: Non-existent template pool reference: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[08Aug2026 03:02:44.203] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element dungeons_arise:heavenly_rider took 11946 ms
+[08Aug2026 03:02:44.204] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11943ms or 238 ticks behind
+[08Aug2026 03:03:14.281] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element dungeons_arise:infested_temple took 1015 ms
+[08Aug2026 03:08:20.313] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/8361, l='ServerLevel[world]', x=252.31, y=133.00, z=1845.75]
+[08Aug2026 03:08:20.313] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/8362, l='ServerLevel[world]', x=252.46, y=133.00, z=1844.15]
+[08Aug2026 03:10:10.293] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LIGS458 moved too quickly! -8.406929501006786,-1.068406499714527,5.361137628271308
+[08Aug2026 03:10:15.990] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LIGS458 moved too quickly! -9.240953412958234,0.0,4.140886667391669
+[08Aug2026 03:10:44.822] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LIGS458 lost connection: Disconnected
+[08Aug2026 03:10:44.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 left the game
+[08Aug2026 03:10:44.917] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 03:16:46.267] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@23cc42df[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:34147): Took too long to log in
+[08Aug2026 03:16:46.268] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@23cc42df[id=<null>,name=FabulexVevo,properties={},legacy=false] (/127.151.21.250:34147) lost connection: Took too long to log in
+[08Aug2026 03:16:46.318] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 03:22:08.712] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/8993, l='ServerLevel[world]', x=790.36, y=13.00, z=1359.01]
+[08Aug2026 03:23:03.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx has made the advancement [Crafting a New Look]
+[08Aug2026 03:27:50.967] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@41f7b4ea[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:32897): Took too long to log in
+[08Aug2026 03:27:50.968] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@41f7b4ea[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:32897) lost connection: Took too long to log in
+[08Aug2026 03:27:51.018] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 03:28:08.968] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2d65d6bf[id=<null>,name=LIGS458,properties={},legacy=false] (/127.173.240.53:32833) lost connection: Disconnected
+[08Aug2026 03:29:15.440] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LIGS458[/127.73.214.172:38341] logged in with entity id 9620 at (69.547396010976, 67.0, 2024.1728989334879)
+[08Aug2026 03:29:15.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 joined the game
+[08Aug2026 03:29:15.502] [Server thread/INFO] [Jade/]: Syncing config to LIGS458 (2814d6c6-5d95-3c08-adff-4f0d3437c200)
+[08Aug2026 03:29:22.924] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@2dede04f[id=<null>,name=LIGS458,properties={},legacy=false] (/127.173.240.53:37609): Took too long to log in
+[08Aug2026 03:29:22.925] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2dede04f[id=<null>,name=LIGS458,properties={},legacy=false] (/127.173.240.53:37609) lost connection: Took too long to log in
+[08Aug2026 03:29:22.972] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 03:29:43.523] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@46229b0f[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:38117) lost connection: Disconnected
+[08Aug2026 03:29:44.564] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/10000, l='ServerLevel[world]', x=-58.12, y=75.00, z=2075.79]
+[08Aug2026 03:30:20.583] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@545d28bd[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:50575): Took too long to log in
+[08Aug2026 03:30:20.584] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@545d28bd[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:50575) lost connection: Took too long to log in
+[08Aug2026 03:30:20.626] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 03:30:43.262] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/10325, l='ServerLevel[world]', x=-109.27, y=0.00, z=2173.33]
+[08Aug2026 03:32:18.271] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-273, y=95, z=2347} BlockPos{x=-272, y=93, z=2345}
+[08Aug2026 03:32:23.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l has made the advancement [Ice Bucket Challenge]
+[08Aug2026 03:32:26.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 was doomed to fall by Cyclops
+[08Aug2026 03:32:34.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported LIGS458 to -274.500000, 95.500000, 2348.500000]
+[08Aug2026 03:32:53.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 was slain by Cyclops
+[08Aug2026 03:33:02.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported LIGS458 to -264.500000, 90.500000, 2340.500000]
+[08Aug2026 03:33:06.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 was slain by Cyclops
+[08Aug2026 03:33:06.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l has made the advancement [Amateur Archaeologist]
+[08Aug2026 03:33:13.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Set own game mode to Creative Mode]
+[08Aug2026 03:33:19.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported LIGS458 to -280.500000, 90.500000, 2339.500000]
+[08Aug2026 03:33:43.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 has made the advancement [My Name is Nobody]
+[08Aug2026 03:33:53.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Set own game mode to Survival Mode]
+[08Aug2026 03:34:37.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Set own game mode to Creative Mode]
+[08Aug2026 03:35:15.735] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@53201155[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:48605): Took too long to log in
+[08Aug2026 03:35:15.736] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@53201155[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:48605) lost connection: Took too long to log in
+[08Aug2026 03:35:15.780] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 03:35:54.588] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Muri3l lost connection: Disconnected
+[08Aug2026 03:35:54.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l left the game
+[08Aug2026 03:35:54.608] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LIGS458 moved too quickly! 7.818377247794331,-5.093511384191132,3.85104793921937
+[08Aug2026 03:35:54.647] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 30787ms or 615 ticks behind
+[08Aug2026 03:35:54.680] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nyx0y_Tx moved too quickly! -8.45614717117462,-0.8787031594607981,5.59153745748381
+[08Aug2026 03:35:54.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Set own game mode to Survival Mode]
+[08Aug2026 03:35:54.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Nyx0y_Tx> gfgdfgdf
+[08Aug2026 03:35:57.199] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Muri3l[/127.57.30.59:50891] logged in with entity id 11824 at (788.4979945386776, 104.0, 1400.7044820742403)
+[08Aug2026 03:35:57.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l joined the game
+[08Aug2026 03:35:57.265] [Server thread/INFO] [Jade/]: Syncing config to Muri3l (b832a611-467f-39fe-b68e-c9681b802f9f)
+[08Aug2026 03:36:01.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Set own game mode to Creative Mode]
+[08Aug2026 03:36:54.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Set own game mode to Survival Mode]
+[08Aug2026 03:37:01.824] [Worker-Main-10/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=294, y=-58, z=-29}
+[08Aug2026 03:37:05.414] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/12256, l='ServerLevel[world]', x=-479.17, y=40.00, z=2436.75]
+[08Aug2026 03:37:05.415] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/12257, l='ServerLevel[world]', x=-479.52, y=40.00, z=2435.96]
+[08Aug2026 03:37:11.279] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e8158a2[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:43371) lost connection: Disconnected
+[08Aug2026 03:37:27.263] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/12491, l='ServerLevel[world]', x=-504.35, y=80.00, z=2480.73]
+[08Aug2026 03:37:34.712] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/12520, l='ServerLevel[world]', x=-515.73, y=79.00, z=2480.88]
+[08Aug2026 03:38:40.870] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/12772, l='ServerLevel[world]', x=-568.66, y=78.00, z=2533.98]
+[08Aug2026 03:38:40.870] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/12773, l='ServerLevel[world]', x=-570.29, y=78.00, z=2533.31]
+[08Aug2026 03:38:44.813] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/12798, l='ServerLevel[world]', x=-539.32, y=79.00, z=2528.66]
+[08Aug2026 03:38:44.813] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/12799, l='ServerLevel[world]', x=-540.19, y=79.00, z=2528.89]
+[08Aug2026 03:39:03.278] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@894b04f[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:56037): Took too long to log in
+[08Aug2026 03:39:03.279] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@894b04f[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:56037) lost connection: Took too long to log in
+[08Aug2026 03:39:03.331] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 03:39:29.485] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6cdb73c8[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:34361) lost connection: Disconnected
+[08Aug2026 03:41:09.071] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@71c83ec3[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:41949): Took too long to log in
+[08Aug2026 03:41:09.072] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@71c83ec3[id=<null>,name=Warrior_Legend,properties={},legacy=false] (/127.15.1.176:41949) lost connection: Took too long to log in
+[08Aug2026 03:41:09.121] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2026 03:41:13.112] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: BabyScorpionEntity['Baby Scorpion'/13500, l='ServerLevel[world]', x=758.74, y=43.00, z=1349.13]
+[08Aug2026 03:44:22.183] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nyx0y_Tx lost connection: Disconnected
+[08Aug2026 03:44:22.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx left the game
+[08Aug2026 03:45:33.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 has made the advancement [Super Creeps]
+[08Aug2026 03:45:48.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported Muri3l to LIGS458]
+[08Aug2026 03:46:13.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l has made the advancement [Super Creeps]
+[08Aug2026 03:47:42.919] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14754, l='ServerLevel[world]', x=-930.90, y=219.01, z=2990.88] died: Dinnerbone was slain by LIGS458
+[08Aug2026 03:47:44.879] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14752, l='ServerLevel[world]', x=-930.12, y=219.01, z=2991.62] died: Dinnerbone was slain by LIGS458
+[08Aug2026 03:47:49.287] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14753, l='ServerLevel[world]', x=-930.55, y=219.01, z=2990.83] died: Dinnerbone was slain by Muri3l
+[08Aug2026 03:50:47.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Gave 30 [Handgun Ammo Box] to LIGS458]
+[08Aug2026 03:52:14.519] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15153, l='ServerLevel[world]', x=-921.26, y=227.01, z=2978.87] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 03:52:36.203] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14971, l='ServerLevel[world]', x=-916.72, y=227.01, z=2984.72] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 03:52:37.338] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15141, l='ServerLevel[world]', x=-918.61, y=227.01, z=2973.73] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 03:52:41.988] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14843, l='ServerLevel[world]', x=-921.47, y=227.01, z=2981.73] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 03:53:50.869] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15156, l='ServerLevel[world]', x=-921.70, y=227.01, z=2973.30] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:53:58.819] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15154, l='ServerLevel[world]', x=-921.70, y=227.01, z=2973.30] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:54:03.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14972, l='ServerLevel[world]', x=-915.42, y=227.01, z=2982.95] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 03:54:04.468] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14844, l='ServerLevel[world]', x=-921.02, y=227.01, z=2977.36] died: Dinnerbone was assassinated by LIGS458
+[08Aug2026 03:54:33.466] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15143, l='ServerLevel[world]', x=-918.94, y=227.01, z=2979.89] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 03:55:24.068] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15155, l='ServerLevel[world]', x=-919.04, y=227.01, z=2979.35] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:55:37.021] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15142, l='ServerLevel[world]', x=-915.72, y=227.01, z=2984.49] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:56:47.369] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15001, l='ServerLevel[world]', x=-939.82, y=227.01, z=2994.04] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 03:56:55.969] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14822, l='ServerLevel[world]', x=-940.30, y=227.01, z=2995.70] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:56:57.969] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15137, l='ServerLevel[world]', x=-940.37, y=227.01, z=2989.16] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 03:56:59.720] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14821, l='ServerLevel[world]', x=-942.35, y=227.01, z=2989.00] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:57:05.519] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15000, l='ServerLevel[world]', x=-938.58, y=227.01, z=2988.17] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:57:19.720] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15488, l='ServerLevel[world]', x=-945.70, y=227.01, z=2991.64] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:57:38.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS458 has made the advancement [Spooky Scary Skeleton]
+[08Aug2026 03:59:05.271] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14801, l='ServerLevel[world]', x=-918.01, y=227.01, z=3001.47] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 03:59:11.219] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15089, l='ServerLevel[world]', x=-914.47, y=227.01, z=3000.80] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 03:59:21.768] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15011, l='ServerLevel[world]', x=-915.12, y=227.01, z=3000.90] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:59:33.168] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14711, l='ServerLevel[world]', x=-914.50, y=227.01, z=3001.43] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:59:38.919] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14802, l='ServerLevel[world]', x=-917.73, y=227.01, z=3000.36] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 03:59:43.468] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/14710, l='ServerLevel[world]', x=-921.11, y=227.01, z=2998.38] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 04:01:14.719] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Muri3l lost connection: Timed out
+[08Aug2026 04:01:14.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l left the game
+[08Aug2026 04:01:22.385] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Muri3l[/127.57.30.59:57275] logged in with entity id 16507 at (-935.4632018416954, 224.0, 2987.9577161649086)
+[08Aug2026 04:01:22.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l joined the game
+[08Aug2026 04:01:22.465] [Server thread/INFO] [Jade/]: Syncing config to Muri3l (b832a611-467f-39fe-b68e-c9681b802f9f)
+[08Aug2026 04:05:10.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l has made the advancement [Spooky Scary Skeleton]
+[08Aug2026 04:08:32.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15395, l='ServerLevel[world]', x=-919.44, y=235.01, z=2993.28] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:09:44.118] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15682, l='ServerLevel[world]', x=-916.97, y=235.01, z=2989.95] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:09:48.771] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15394, l='ServerLevel[world]', x=-913.93, y=235.01, z=2994.20] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:09:50.070] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15784, l='ServerLevel[world]', x=-914.07, y=235.01, z=2993.92] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 04:10:41.319] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15785, l='ServerLevel[world]', x=-918.13, y=235.01, z=2991.37] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 04:10:50.169] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15683, l='ServerLevel[world]', x=-911.30, y=235.01, z=2992.52] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 04:12:05.672] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/17317, l='ServerLevel[world]', x=-942.93, y=235.01, z=2976.79] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:12:08.435] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15024, l='ServerLevel[world]', x=-943.05, y=235.01, z=2977.38] died: Dinnerbone was slain by Muri3l
+[08Aug2026 04:12:16.278] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/16482, l='ServerLevel[world]', x=-942.43, y=235.01, z=2978.25] died: Dinnerbone was slain by Muri3l
+[08Aug2026 04:12:25.670] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15877, l='ServerLevel[world]', x=-942.64, y=235.01, z=2984.70] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 04:12:26.319] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/15811, l='ServerLevel[world]', x=-940.68, y=235.01, z=2984.70] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 04:12:34.686] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/17318, l='ServerLevel[world]', x=-942.80, y=235.01, z=2977.51] died: Dinnerbone was slain by Muri3l
+[08Aug2026 04:21:23.871] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/17499, l='ServerLevel[world]', x=-945.04, y=251.01, z=3009.13] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:21:29.820] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/17080, l='ServerLevel[world]', x=-946.42, y=251.01, z=3001.58] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:21:30.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/18278, l='ServerLevel[world]', x=-941.57, y=251.01, z=3009.70] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:21:37.869] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/16930, l='ServerLevel[world]', x=-939.78, y=251.01, z=3004.42] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:22:33.120] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/18279, l='ServerLevel[world]', x=-941.71, y=251.01, z=3009.70] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 04:22:47.171] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/17498, l='ServerLevel[world]', x=-940.22, y=251.01, z=3007.76] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:23:00.917] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/18280, l='ServerLevel[world]', x=-946.70, y=251.01, z=2998.30] died: Dinnerbone was slain by Spider
+[08Aug2026 04:23:01.522] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/17497, l='ServerLevel[world]', x=-937.76, y=251.01, z=3003.71] died: Dinnerbone was assassinated by LIGS458
+[08Aug2026 04:23:21.971] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/16683, l='ServerLevel[world]', x=-943.06, y=251.01, z=3009.42] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 04:23:38.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/16718, l='ServerLevel[world]', x=-940.77, y=251.01, z=3004.70] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 04:26:02.669] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/18125, l='ServerLevel[world]', x=-945.11, y=251.01, z=2995.70] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:26:06.771] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/17307, l='ServerLevel[world]', x=-941.10, y=251.01, z=2991.99] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:26:12.773] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/17306, l='ServerLevel[world]', x=-943.11, y=251.01, z=2987.30] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:26:37.169] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/18264, l='ServerLevel[world]', x=-944.95, y=251.01, z=2992.00] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:27:03.870] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/18153, l='ServerLevel[world]', x=-942.40, y=251.01, z=2994.18] died: Dinnerbone was slain by Spider
+[08Aug2026 04:27:18.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Aug2026 04:27:18.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xdd<--[HERE]
+[08Aug2026 04:29:03.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported LIGS458 to Muri3l]
+[08Aug2026 04:29:19.407] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/18050, l='ServerLevel[world]', x=-944.54, y=251.01, z=2995.81] died: Dinnerbone was slain by Muri3l
+[08Aug2026 04:39:48.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l withered away
+[08Aug2026 04:40:07.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported Muri3l to LIGS458]
+[08Aug2026 04:47:35.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/19786, l='ServerLevel[world]', x=-940.49, y=267.01, z=3000.97] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:48:36.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LIGS458 moved wrongly!
+[08Aug2026 04:53:03.671] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/19489, l='ServerLevel[world]', x=-946.32, y=267.01, z=3001.59] died: Dinnerbone was slain by LIGS458
+[08Aug2026 04:53:43.783] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Nyx0y_Tx[/127.89.93.69:42941] logged in with entity id 21455 at (760.6822618055395, 90.9375, 1382.1091582264903)
+[08Aug2026 04:53:43.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx joined the game
+[08Aug2026 04:53:43.818] [Server thread/INFO] [Jade/]: Syncing config to Nyx0y_Tx (9c03f1c9-81ea-34da-86fd-7d937d259bba)
+[08Aug2026 04:53:53.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported Nyx0y_Tx to LIGS458]
+[08Aug2026 04:53:53.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nyx0y_Tx has made the advancement [Super Creeps]
+[08Aug2026 04:54:58.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Gave 30 [Handgun Ammo Box] to LIGS458]
+[08Aug2026 04:55:53.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Muri3l was assassinated by LIGS458
+[08Aug2026 04:55:57.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LIGS458: Teleported Muri3l to LIGS458]
+[08Aug2026 04:57:09.471] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/19294, l='ServerLevel[world]', x=-944.33, y=267.01, z=2992.50] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:57:11.923] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/19484, l='ServerLevel[world]', x=-941.06, y=267.01, z=2991.65] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:57:15.822] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/20700, l='ServerLevel[world]', x=-938.30, y=267.01, z=2987.84] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 04:59:25.376] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/19385, l='ServerLevel[world]', x=-939.92, y=267.01, z=2988.20] died: Dinnerbone was slain by Muri3l
+[08Aug2026 04:59:29.544] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/19507, l='ServerLevel[world]', x=-940.86, y=267.01, z=2989.25] died: Dinnerbone was slain by Muri3l
+[08Aug2026 04:59:37.694] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/19408, l='ServerLevel[world]', x=-935.47, y=267.01, z=2991.71] died: Dinnerbone was slain by Muri3l
+[08Aug2026 05:05:36.972] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/23288, l='ServerLevel[world]', x=-940.34, y=275.01, z=2990.20] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 05:05:38.624] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/22480, l='ServerLevel[world]', x=-936.64, y=275.01, z=2990.82] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 05:05:41.626] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/22518, l='ServerLevel[world]', x=-939.62, y=275.01, z=2987.62] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 05:05:54.371] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/22617, l='ServerLevel[world]', x=-937.10, y=275.01, z=2992.24] died: Dinnerbone was shot by Dinnerbone
+[08Aug2026 05:05:55.471] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/22218, l='ServerLevel[world]', x=-939.30, y=276.01, z=2984.40] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 05:06:44.918] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/22312, l='ServerLevel[world]', x=-943.36, y=275.01, z=2993.64] died: Dinnerbone was slain by Spider
+[08Aug2026 05:06:50.823] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/22684, l='ServerLevel[world]', x=-941.57, y=275.01, z=2987.30] died: Dinnerbone was gunned down by LIGS458
+[08Aug2026 05:06:55.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/23323, l='ServerLevel[world]', x=-939.75, y=275.01, z=2987.64] died: Dinnerbone was gunned down by LIGS458
